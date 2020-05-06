@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(img/por.jpg);
+	background-attachment: fixed;
+}
+
+.musica{
+	background:rgba(1,1,1,0.5);
+	padding: 16px;
+	margin: 14px;
+	border-radius: 11px;
+
+}
+
+audio{
+	margin: 12px;
+	padding: 25px;
+	background:rgba(24,156,122,0.2);
+	border-radius: 12px; 
+
+}
+
+.uno{
+	background:url(img/rin.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.dos{
+	background: url(img/ji.jpg);
+
+}
+
+.tre{
+	background: url(img/jo.jpg);
+}
+
+.cua{
+	background: url(img/pa.jpg);
+}
+
+.cin{
+	background: url(img/cua.jpg);
+}
+.set{
+	background: url(img/kio.jpg);
+}
+.oy{
+	background: url(img/bd1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner{
+	background:rgba(35, 113, 223,0.6);
+	margin: 12px;
+	padding: 11px;
+	border-radius: 11px;
+
+}
+.banner img{
+	width: 100%;
+	border-radius: 11px;
+}
+.banner h2{
+	color:#000;
+	font-family:algerian;
+	text-align: center;
+}
+
+
+.menu{
+	margin:6px;
+	padding: 12px;
+	text-align: center;
+	background:rgba(220, 60, 152,0.6);
+	border-radius: 12px;
+	
+}
+.menu ul{
+	padding:0px;
+	margin:0px;
+}
+
+.menu  li {
+	display:table-cell;
+	padding: 16px;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: arial, sans-serif;
+}
+
+.menu li a:hover{
+	background: rgba(91, 229, 168,0.6);
+	padding: 19px;
+	width: 10px;
+	border-radius: 11px;
+	border: dotted;
+}
+
+
+.footer{
+	background:rgba(105, 240, 72,0.6);
+	border-radius: 12px;
+	padding: 14px;
+	margin: 4px;
+}
+
+.footer h1{
+text-align: center;
+font-family: arial;
+color:#000;
+
+}

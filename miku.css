@@ -1,0 +1,172 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+html{
+	font-size: 16px;
+	font-family: 'lato', sans-serif;
+}
+ body{
+ 	height: 100vh;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: #2FBFA3;
+ 	webkit-animation: color-change-3x 8s linear infinite alternate both;
+	        animation: color-change-3x 8s linear infinite alternate both; 
+ }
+ .login_container{
+ 	background-color: #2FBF7C ;
+ 	width: 350px;
+ 	border-top:solid .5rem #2FBF3C;
+ 	box-sizing: border-box;
+ 	padding: 3rem 0;
+ 	box-shadow: 0 0 .5rem #32CED3;
+ 	border-radius: 12px;
+ 	border: double;
+ 	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+}
+
+ .login_top{
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ }
+
+.login_title{
+	color:#ffffff;
+	-webkit-animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.login_img{
+	width: 8rem;
+	border-radius: 50%;
+	background-color: #FF0083;
+}
+
+.login_form{
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem 2rem 0;
+}
+
+input[type=text],[type=password]{
+	height: .5rem;
+	margin: .5rem 0;
+	padding: 1rem;
+	transition: all .7s;
+}
+
+input[type=text]:focus, [type=password]:focus{
+	border-color: #9063DF;
+	background-color: pink;
+}
+
+.btn_submit{
+	height: 2.5rem;
+	border:none;
+	background-color: #ECA0E5;
+	color: white;
+	padding: .5px;
+	margin: .5rem 0 .3rem;
+}
+
+.btn_submit a{
+  font-family: arial;
+  text-decoration: none;
+  color:white;
+}
+.btn_submit:hover{
+	background-color: #E63CD6;
+}
+
+.btn_recover{
+height: 2.5rem;
+  border:none;
+  background-color: #ECA0E5;
+  color: white;
+  padding: .5px;
+  margin: .5rem 0 .3rem;
+  text-decoration: none;
+  text-align: center;
+
+}
+.btn_recover:hover{
+	background-color:#E63CD6;
+}
+.btn_recover a{
+  text-decoration: none;
+  color: #fff;
+}
+h2 span{
+	color:#271FC8;
+}
+
+@-webkit-keyframes color-change-3x {
+  0% {
+    background:url(img/ru.jpg);
+  }
+  50% {
+    background: url(img/ro.jpg);
+  }
+  100% {
+    background: url(img/re.jpg);
+  }
+}
+@keyframes color-change-3x {
+  0% {
+    background:url(img/re.jpg);
+  }
+  50% {
+    background: url(img/ro.jpg);
+  }
+  100% {
+    background:url(img/ru.jpg);
+  }
+}
+@-webkit-keyframes color-change-2x {
+  0% {
+    background:#5CADB6;
+  }
+  100% {
+    background: #15C4D5;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background:#5CADB6;
+  }
+  100% {
+    background: #15C4D5;
+  }
+}
+
+@-webkit-keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
